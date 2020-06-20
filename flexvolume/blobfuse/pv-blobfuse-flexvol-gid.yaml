@@ -15,5 +15,5 @@ spec:
       name: blobfusecreds
     options:
       container: CONTAINER-NAME
-      tmppath: /tmp/blobfuse
+      tmppath: /mnt/blobfuse
       mountoptions: "-o gid=1000 -o uid=1000"

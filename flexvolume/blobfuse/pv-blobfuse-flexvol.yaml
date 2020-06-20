@@ -15,5 +15,5 @@ spec:
       name: blobfusecreds
     options:
       container: CONTAINER-NAME
-      tmppath: /tmp/blobfuse
+      tmppath: /mnt/blobfuse
       mountoptions: "--file-cache-timeout-in-seconds=120"
