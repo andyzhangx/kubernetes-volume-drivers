@@ -22,7 +22,7 @@ spec:
         name: blobfusecreds
       options:
         container: public
-        tmppath: /tmp/blobfuse
+        tmppath: /mnt/blobfuse01
         mountoptions: "--file-cache-timeout-in-seconds=120"
   - name: test2
     flexVolume:
@@ -32,7 +32,7 @@ spec:
         name: blobfusecreds
       options:
         container: public
-        tmppath: /tmp/blobfuse
+        tmppath: /mnt/blobfuse02
         mountoptions: "--file-cache-timeout-in-seconds=120"
   - name: test3
     flexVolume:
@@ -42,5 +42,5 @@ spec:
         name: blobfusecreds
       options:
         container: public
-        tmppath: /tmp/blobfuse
+        tmppath: /mnt/blobfuse03
         mountoptions: "--file-cache-timeout-in-seconds=120"

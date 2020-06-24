@@ -19,5 +19,5 @@ spec:
           name: blobfusecreds
         options:
           container: CONTAINER-NAME
-          tmppath: /mnt/blobfuse
+          tmppath: /mnt/blobfuse01  # make sure it's unique for every blobfuse PV
           mountoptions: "--file-cache-timeout-in-seconds=120"
